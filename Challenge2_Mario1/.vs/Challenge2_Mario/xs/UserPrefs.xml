@@ -1,0 +1,19 @@
+﻿<Properties StartupConfiguration="{5986669D-C13B-4911-20DB-45CBB4CBD2C5}|">
+  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="Unity.Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/SpawnC.cs">
+    <Files>
+      <File FileName="Assets/Scripts/PlayerController.cs" Line="10" Column="27" />
+      <File FileName="Assets/Scripts/CameraController.cs" Line="25" Column="11" />
+      <File FileName="Assets/Scripts/CoinBox.cs" Line="8" Column="5" />
+      <File FileName="Assets/Scripts/GoombaControl.cs" Line="41" Column="7" />
+      <File FileName="Assets/Scripts/Spawn.cs" Line="7" Column="1" />
+      <File FileName="Assets/Scripts/SpawnC.cs" Line="21" Column="2" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+</Properties>
