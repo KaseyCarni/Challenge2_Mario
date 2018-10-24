@@ -136,6 +136,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d791acb893af408796c160c11dd9a68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinSpawnPoint: {fileID: 1866332835125004, guid: 2193c381f8b7e42309b79ccff705554e,
+    type: 2}
+  coinPrefabs:
+  - {fileID: 1912877489535490, guid: 3698d59a36c944eb9867976a071942bd, type: 2}
+  - {fileID: 1912877489535490, guid: 4791a3b14ecfd4b3e82ac8a5c1bb08b6, type: 2}
+  - {fileID: 1912877489535490, guid: 576a48fafb84f476da5fbeb670117628, type: 2}
+  - {fileID: 1912877489535490, guid: a5e4ee0e916e84ca88a35898e753d042, type: 2}
+  - {fileID: 1912877489535490, guid: f904b1f8383fd43bf82bcc106d1bc23b, type: 2}
 --- !u!212 &212467752439723854
 SpriteRenderer:
   m_ObjectHideFlags: 1

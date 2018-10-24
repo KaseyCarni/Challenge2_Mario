@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class CoinBox : MonoBehaviour {
 
-public GameObject usedBox;
+    public GameObject poppedStatePrefab;
 
     void OnTriggerEnter2D(Collider2D collider)
     {
@@ -13,14 +13,20 @@ public GameObject usedBox;
         float distance = heading.magnitude;
 
         Vector3 direction = heading / distance;
-        if ((direction.x < 0.1 && direction.x > -1.1) && (direction.y < 1.1 && direction.y > 0.4) && collider.tag == "Mario")
+
+        if ((direction.x < 0.1 && direction.x > -1.1) && (direction.y < 1.1 && direction.y > 0.4) && collider.tag == "player")
         {
             CoinPop();
         }
     }
+
+ 
+     //I tride two types to get this to work
+
     void CoinPop()
     {
-        usedBox.SetActive(true);
+        poppedStatePrefab.SetActive(true);
         this.gameObject.SetActive(false);
     }
+   
 }

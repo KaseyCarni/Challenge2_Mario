@@ -156,7 +156,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 1.2}
   m_EdgeRadius: 0
 --- !u!61 &61501909574447082
 BoxCollider2D:
@@ -206,7 +206,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 1, y: 1.2}
   m_EdgeRadius: 0
 --- !u!114 &114173264000141792
 MonoBehaviour:
@@ -219,7 +219,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6423e5682a6f14ff595e480fc1524848, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  usedBox: {fileID: 0}
+  poppedStatePrefab: {fileID: 1462636442891356, guid: 2193c381f8b7e42309b79ccff705554e,
+    type: 2}
 --- !u!114 &114301596529269326
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -231,6 +232,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2d791acb893af408796c160c11dd9a68, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  coinSpawnPoint: {fileID: 0}
+  coinPrefabs: []
 --- !u!212 &212848928538640128
 SpriteRenderer:
   m_ObjectHideFlags: 1

@@ -12,11 +12,11 @@ public class SpawnCoin : MonoBehaviour {
 
     void Start()
     {
-        this.spawnCoin();
+        this.spawnTheCoin();
       
     }
 
-   void spawnCoin()
+   void spawnTheCoin()
     {
         int random = Random.Range(0, coinPrefabs.Length);
         GameObject coin = Object.Instantiate
@@ -26,5 +26,5 @@ public class SpawnCoin : MonoBehaviour {
 
         coin.GetComponent<Rigidbody2D>().AddForce(new Vector2((Random.Range(-120, 120)), 700));
     }
-   
+   // It spawns one Coin on start i can not get it to load more
 }
