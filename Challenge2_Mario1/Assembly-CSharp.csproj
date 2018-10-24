@@ -10,7 +10,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace>
     </RootNamespace>
-    <ProjectGuid>{5986669D-C13B-4911-20DB-45CBB4CBD2C5}</ProjectGuid>
+    <ProjectGuid>{64CE18FE-C0D1-133B-EA35-D3835399764B}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -64,21 +64,19 @@
     <Compile Include="Assets\Scripts\CameraController.cs" />
     <Compile Include="Assets\Scripts\CoinBox.cs" />
     <Compile Include="Assets\Scripts\GoombaControl.cs" />
-    <Compile Include="Assets\Scripts\GoombaController.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
-    <Compile Include="Assets\Scripts\Spawn.cs" />
-    <Compile Include="Assets\Scripts\SpawnC.cs" />
+    <Compile Include="Assets\Scripts\SpawnCoin.cs" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>/Users/kaseycarni/Challenge2_Mario/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>/Users/kaseycarni/Desktop/Challenge2_Mario/Challenge2_Mario1/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>/Users/kaseycarni/Challenge2_Mario/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>/Users/kaseycarni/Desktop/Challenge2_Mario/Challenge2_Mario1/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>/Users/kaseycarni/Challenge2_Mario/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>/Users/kaseycarni/Desktop/Challenge2_Mario/Challenge2_Mario1/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>/Users/kaseycarni/Challenge2_Mario/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>/Users/kaseycarni/Desktop/Challenge2_Mario/Challenge2_Mario1/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>/Applications/Unity/Unity.app/Contents/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

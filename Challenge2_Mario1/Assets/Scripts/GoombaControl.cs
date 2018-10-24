@@ -12,13 +12,13 @@ public class GoombaControl : MonoBehaviour {
 
     public float playerHitHeight;
 
-    public float playerHitWidtht;
-
-    public Transform playerHitBox;
+    public float playerHitWidth;
 
     public Transform wallHitCheck;
 
-    public LayerMask allWall;
+    public Transform playerHitBox;
+
+    public LayerMask isPlayer;
 
     public LayerMask isGround;
 
@@ -38,9 +38,11 @@ public class GoombaControl : MonoBehaviour {
     {
         anim = GetComponent<Animator>();
 
-       // I tried to get this to work
+
+        anim.SetBool("isDead", false);
 
         playerHit = false;
+       
 
         rb2d = GetComponent<Rigidbody2D>();
     }
@@ -53,7 +55,7 @@ public class GoombaControl : MonoBehaviour {
     }
 
 
-    private void OnCollisionStay2D(Collision2D collision)
+     void OnCollisionStay2D(Collision2D collision)
     {
         wallHit = Physics2D.OverlapBox(wallHitCheck.position, new Vector2(wallHitWidth, wallHitHeight), 0, isGround);
 
@@ -69,14 +71,20 @@ public class GoombaControl : MonoBehaviour {
 
             transform.localScale = Scaler;
         }
-    }
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        if (collision.collider.tag == "Player" && playerHit == true)
-        {
+
+        if (collision.collider.tag == "player"){
             anim.SetBool("isDead", true);
-            Debug.Log("Goomba dead");
+            Debug.Log("Th-Th-The, Th-Th-The, Th-Th.. that's all folks!");
             Destroy(gameObject);
         }
     }
+     void OnDrawGizmosSelected()
+    {
+        Gizmos.color = Color.magenta;
+        Gizmos.DrawCube(wallHitCheck.position, new Vector3(wallHitWidth, wallHitHeight, 1));
+ 
+        Gizmos.color = Color.cyan;
+        Gizmos.DrawCube(playerHitBox.position, new Vector3(playerHitWidth, playerHitHeight, 1));
+    }
 }
+
