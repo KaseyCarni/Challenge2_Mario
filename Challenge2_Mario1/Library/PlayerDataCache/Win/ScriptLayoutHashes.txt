@@ -166,5 +166,5 @@ e04611b8715e6833d2bd7010fc6be10b Unity.TextMeshPro.dll:TMPro.TMP_StyleSheet
 2f9af06a78208a67db480e9bfed4a076 Unity.TextMeshPro.dll:TMPro.TextMeshPro
 9318334b30e9f195f573b2ce00154b95 Unity.TextMeshPro.dll:TMPro.TMP_ColorGradient
 93307bd34e39d73fd24e00ec39c25a91 Unity.TextMeshPro.dll:TMPro.TMP_SubMesh
-0ee987b02f9207344433664db1afa8eb Assembly-CSharp.dll:.CoinBox
+ec6b2f4ccc636709e13ade6ab64c9929 Assembly-CSharp.dll:.CoinBox
 40f4a3fd75661a615298739b7f5f1e53 Assembly-CSharp.dll:.SpawnCoin
